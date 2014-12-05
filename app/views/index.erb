@@ -1,1 +1,27 @@
-<h1>Home Page</h1>
+<section id="container">
+  <h2>Contacts!</h2>
+
+  <button id="getContacts">Get Contacts!</button><br>
+  <button id="searchContacts">Search for Contacts!</button>
+  Search for: <INPUT id="search_field" type="text" name="searchfield">
+
+  <section id="results" class="hide">
+    <table id="contacts">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </section>
+  <form id="contactForm">
+    First name: <INPUT id="first_name_field" type="text" name="firstname"><BR>
+    Last name: <INPUT id="last_name_field" type="text" name="lastname"><BR>
+    email: <INPUT id="email_field" type="text" name="email"><BR>
+    <INPUT type="submit" value="Create" id="makeContact">
+  </form>
+</section>

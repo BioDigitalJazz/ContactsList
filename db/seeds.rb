@@ -1,0 +1,5 @@
+Contact.create first_name: "Adam", last_name: "Adams", email: "aadams@gmail.com"
+Contact.create first_name: "Dave", last_name: "Davidson", email: "ddavidson@gmail.com"
+Contact.create first_name: "Eric", last_name: "Ericson", email: "eericson@gmail.com"
+Contact.create first_name: "Fred", last_name: "Frederickson", email: "ffrederickson@gmail.com"
+Contact.create first_name: "George", last_name: "Georgeson", email: "ggeorge@gmail.com"
